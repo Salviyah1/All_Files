@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:45509
+[2024-11-15 17:20:38] info Disposed of connection to running server.
+looking for token 82da5a2c-df3f-4762-9e7d-ff143e55047e, got Some("82da5a2c-df3f-4762-9e7d-ff143e55047e")
+[2024-11-15 17:20:38] info Checking /home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/log.txt and /home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/pid.txt for a running server...
+[2024-11-15 17:20:38] info Found running server (pid=5028)

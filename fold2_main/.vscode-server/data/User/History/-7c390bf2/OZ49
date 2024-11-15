@@ -1,0 +1,4 @@
+FROM httpd:latest
+ADD . /code
+ADD index.html /code
+ADD index.html /code/index.html
