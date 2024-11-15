@@ -1,0 +1,30 @@
+2024-11-08 08:53:30.417 [info] 
+
+
+
+
+2024-11-08 08:53:30.427 [info] Extension host agent started.
+2024-11-08 08:53:30.589 [info] [<unknown>][c5dc111e][ExtensionHostConnection] New connection established.
+2024-11-08 08:53:30.591 [info] [<unknown>][8a459955][ManagementConnection] New connection established.
+2024-11-08 08:53:30.772 [info] [<unknown>][c5dc111e][ExtensionHostConnection] <12757> Launched Extension Host Process.
+2024-11-08 08:56:42.892 [info] [<unknown>][8a459955][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-08 08:56:42.932 [info] [<unknown>][c5dc111e][ExtensionHostConnection] <12757> Extension Host Process exited with code: 0, signal: null.
+2024-11-08 08:56:42.932 [info] Cancelling previous shutdown timeout
+2024-11-08 08:56:42.933 [info] Last EH closed, waiting before shutting down
+2024-11-08 08:57:19.081 [info] [<unknown>][da9e2cf3][ManagementConnection] New connection established.
+2024-11-08 08:57:19.082 [info] [<unknown>][ebbac0b3][ExtensionHostConnection] New connection established.
+2024-11-08 08:57:19.086 [info] [<unknown>][ebbac0b3][ExtensionHostConnection] <13609> Launched Extension Host Process.
+2024-11-08 08:57:56.705 [info] [<unknown>][da9e2cf3][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-08 08:57:56.734 [info] [<unknown>][ebbac0b3][ExtensionHostConnection] <13609> Extension Host Process exited with code: 0, signal: null.
+2024-11-08 08:57:56.735 [info] Cancelling previous shutdown timeout
+2024-11-08 08:57:56.735 [info] Last EH closed, waiting before shutting down
+2024-11-08 08:58:30.953 [info] [<unknown>][d9bb22d6][ExtensionHostConnection] New connection established.
+2024-11-08 08:58:30.954 [info] [<unknown>][463291f9][ManagementConnection] New connection established.
+2024-11-08 08:58:30.958 [info] [<unknown>][d9bb22d6][ExtensionHostConnection] <13832> Launched Extension Host Process.
+2024-11-08 09:01:36.316 [info] [<unknown>][463291f9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-08 09:01:36.323 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)
+2024-11-08 09:01:36.359 [info] [<unknown>][d9bb22d6][ExtensionHostConnection] <13832> Extension Host Process exited with code: 0, signal: null.
+2024-11-08 09:01:36.360 [info] Cancelling previous shutdown timeout
+2024-11-08 09:01:36.360 [info] Last EH closed, waiting before shutting down

@@ -1,0 +1,75 @@
+2024-11-15 16:59:24.431 [info] [main] Log level: Info
+2024-11-15 16:59:24.431 [info] [main] Validating found git in: "git"
+2024-11-15 16:59:24.431 [info] [main] Using git "2.43.5" from "git"
+2024-11-15 16:59:24.431 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-15 16:59:24.431 [info] > git rev-parse --show-toplevel [33ms]
+2024-11-15 16:59:24.431 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 16:59:24.437 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-15 16:59:24.437 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 16:59:24.442 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-15 16:59:24.442 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 16:59:24.446 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-15 16:59:24.446 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 16:59:24.450 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-15 16:59:24.450 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 16:59:24.454 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-15 16:59:24.454 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 16:59:24.457 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-15 16:59:24.457 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 16:59:24.461 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-15 16:59:35.107 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-15 16:59:35.107 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 16:59:36.458 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-15 16:59:36.458 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 16:59:42.057 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-15 16:59:42.057 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 16:59:44.080 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-15 16:59:44.080 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-15 17:00:22.669 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-15 17:00:22.677 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-11-15 17:00:22.690 [info] [Model][openRepository] Opened repository: /home/azureuser/All_Files
+2024-11-15 17:00:22.702 [info] > git config --get commit.template [5ms]
+2024-11-15 17:00:22.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-15 17:00:22.710 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/azureuser/All_Files/.git/refs/remotes/origin/main'
+2024-11-15 17:00:22.715 [info] > git rev-parse refs/remotes/origin/main [5ms]
+2024-11-15 17:00:22.724 [info] > git status -z -uall [6ms]
+2024-11-15 17:00:22.727 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-15 17:00:22.745 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-15 17:00:22.754 [info] > git config --get commit.template [9ms]
+2024-11-15 17:00:22.758 [info] > git config --local branch.main.vscode-merge-base [6ms]
+2024-11-15 17:00:22.758 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-15 17:00:22.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-11-15 17:00:22.768 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/azureuser/All_Files/.git/refs/remotes/origin/main'
+2024-11-15 17:00:22.776 [info] > git reflog main --grep-reflog=branch: Created from *. [13ms]
+2024-11-15 17:00:22.781 [info] > git rev-parse refs/remotes/origin/main [13ms]
+2024-11-15 17:00:22.792 [info] > git status -z -uall [6ms]
+2024-11-15 17:00:22.792 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [13ms]
+2024-11-15 17:00:22.796 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-15 17:00:22.803 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2024-11-15 17:00:22.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-11-15 17:00:22.813 [info] > git config --local branch.main.vscode-merge-base origin/main [7ms]
+2024-11-15 17:00:22.821 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-11-15 17:00:22.826 [info] > git config --get commit.template [8ms]
+2024-11-15 17:00:22.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-11-15 17:00:22.912 [info] > git merge-base refs/heads/main refs/remotes/origin/main [76ms]
+2024-11-15 17:00:22.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [86ms]
+2024-11-15 17:00:22.919 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/azureuser/All_Files/.git/refs/remotes/origin/main'
+2024-11-15 17:00:22.920 [info] > git diff --name-status -z --diff-filter=ADMR 27f82961832460654361267342d4e5f950c9f178...refs/remotes/origin/main [5ms]
+2024-11-15 17:00:22.922 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-11-15 17:00:22.928 [info] > git status -z -uall [4ms]
+2024-11-15 17:00:22.931 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-15 17:00:23.277 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-15 17:00:24.019 [info] > git config --get commit.template [11ms]
+2024-11-15 17:00:24.023 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-15 17:00:24.027 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/azureuser/All_Files/.git/refs/remotes/origin/main'
+2024-11-15 17:00:24.031 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-11-15 17:00:24.040 [info] > git status -z -uall [7ms]
+2024-11-15 17:00:24.044 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-11-15 17:01:04.952 [info] > git check-ignore -v -z --stdin [3ms]
+2024-11-15 17:01:40.011 [info] > git config --get commit.template [5ms]
+2024-11-15 17:01:40.013 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-15 17:01:40.016 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/azureuser/All_Files/.git/refs/remotes/origin/main'
+2024-11-15 17:01:40.020 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-11-15 17:01:40.027 [info] > git status -z -uall [5ms]
+2024-11-15 17:01:40.030 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-15 17:01:53.305 [info] > git check-ignore -v -z --stdin [4ms]
