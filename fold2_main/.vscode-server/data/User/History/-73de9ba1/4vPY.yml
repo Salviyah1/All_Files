@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  web:
+    image: "custpython:v5"
+    build: .
+    ports:
+      - 8000:5010
+  redis:
+    image: "redis:latest"

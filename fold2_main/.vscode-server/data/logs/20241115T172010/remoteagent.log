@@ -1,0 +1,48 @@
+2024-11-15 17:20:10.417 [info] 
+
+
+
+
+2024-11-15 17:20:10.436 [info] Extension host agent started.
+2024-11-15 17:20:10.681 [info] [<unknown>][635e2914][ManagementConnection] New connection established.
+2024-11-15 17:20:10.683 [info] [<unknown>][22d38ea5][ExtensionHostConnection] New connection established.
+2024-11-15 17:20:10.815 [info] [<unknown>][22d38ea5][ExtensionHostConnection] <5065> Launched Extension Host Process.
+2024-11-15 17:20:19.309 [error] CodeExpectedError: Could not find pty 1 on pty host
+    at I.W (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateTitle (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7722)
+    at N.s.<computed> (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-15 17:20:19.311 [error] CodeExpectedError: Could not find pty 1 on pty host
+    at I.W (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:48:12233)
+    at I.updateIcon (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:48:7772)
+    at N.s.<computed> (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:48:2962)
+    at Object.call (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:31:4203)
+    at Jc.s (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78968)
+    at Jc.q (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:29:78491)
+    at hs.value (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:29:77893)
+    at C.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:29:746)
+    at C.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:29:964)
+    at process.w (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/platform/terminal/node/ptyHostMain.js:24:29137)
+    at process.emit (node:events:519:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-11-15 17:20:24.564 [info] [<unknown>][635e2914][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-15 17:20:24.591 [info] [<unknown>][22d38ea5][ExtensionHostConnection] <5065> Extension Host Process exited with code: 0, signal: null.
+2024-11-15 17:20:24.591 [info] Cancelling previous shutdown timeout
+2024-11-15 17:20:24.591 [info] Last EH closed, waiting before shutting down
+2024-11-15 17:20:38.961 [info] [<unknown>][c28c45f5][ManagementConnection] New connection established.
+2024-11-15 17:20:38.962 [info] [<unknown>][0193a3ea][ExtensionHostConnection] New connection established.
+2024-11-15 17:20:38.968 [info] [<unknown>][0193a3ea][ExtensionHostConnection] <5176> Launched Extension Host Process.
+2024-11-15 17:25:24.593 [info] New EH opened, aborting shutdown
+2024-11-15 17:25:24.595 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/server-main.js:183:1060)
+    at process.emit (node:events:531:35)

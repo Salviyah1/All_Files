@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  tomcat:
+    image: customtomcat:v1
+    container_name: samplemaven-webb
+    ports:
+      - "8005:8080"  # Map port 8005 on the host to 8080 in the container
+    volumes:
+      - myvol:/usr/local/tomcat/webapps  # Bind mount the volume to Tomcat's webapps directory
+    networks:
+      - mynetwork
+
+volumes:
+  myvol:
+    external: true  # Use the external volume 'myvol' created earlier
+
+networks:
+  mynetwork:
+    driver: bridge

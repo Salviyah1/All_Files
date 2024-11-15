@@ -1,0 +1,21 @@
+2024-11-12 09:02:37.748 [info] Extension host with pid 29542 started
+2024-11-12 09:02:37.749 [error] Error: EEXIST: file already exists, open '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f/vscode.lock'
+2024-11-12 09:02:37.771 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-12 09:02:37.919 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f/vscode.lock': The lock does not look stale, elapsed: 74 ms, giving up.
+2024-11-12 09:02:37.920 [error] Error: EEXIST: file already exists, open '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f-1/vscode.lock'
+2024-11-12 09:02:37.928 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-12 09:02:37.930 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f-1/vscode.lock': The lock does not look stale, elapsed: 228 ms, giving up.
+2024-11-12 09:02:37.940 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f-2/vscode.lock': Lock acquired.
+2024-11-12 09:02:38.008 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-11-12 09:02:38.009 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-12 09:02:38.011 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-11-12 09:02:38.180 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-11-12 09:02:38.187 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-11-12 09:02:38.552 [info] Eager extensions activated
+2024-11-12 09:02:38.552 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-12 09:02:38.553 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-12 09:32:02.473 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-11-12 09:32:07.871 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-12 09:32:07.871 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-12 09:32:07.872 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-11-12 11:29:30.091 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'

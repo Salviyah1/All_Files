@@ -1,0 +1,10 @@
+version: 'latest'
+services:
+  web:
+    image: "customtomcat:v1"
+    build: .
+    ports:
+      - "8004-8008:8080"
+  tomcat:
+    image: "tomcat:latest"
+    

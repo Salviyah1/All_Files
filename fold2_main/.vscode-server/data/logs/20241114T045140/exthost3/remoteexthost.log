@@ -1,0 +1,177 @@
+2024-11-14 05:16:10.255 [info] Extension host with pid 5740 started
+2024-11-14 05:16:10.255 [error] Error: EEXIST: file already exists, open '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f/vscode.lock'
+2024-11-14 05:16:10.258 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-14 05:16:10.304 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f/vscode.lock': The lock does not look stale, elapsed: 893 ms, giving up.
+2024-11-14 05:16:10.306 [error] Error: EEXIST: file already exists, open '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f-1/vscode.lock'
+2024-11-14 05:16:10.311 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-11-14 05:16:10.312 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f-1/vscode.lock': The pid 12968 appears to be gone.
+2024-11-14 05:16:10.312 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f-1/vscode.lock': Deleting a stale lock.
+2024-11-14 05:16:10.317 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f-1/vscode.lock': Lock acquired.
+2024-11-14 05:16:10.753 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-11-14 05:16:10.754 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-11-14 05:16:10.844 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-11-14 05:16:10.845 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-11-14 05:16:11.169 [info] Eager extensions activated
+2024-11-14 05:16:11.170 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 05:16:11.171 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 05:16:11.558 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-14 07:15:44.515 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-11-14 07:15:50.112 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-14 07:15:50.113 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-14 07:15:50.113 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-11-14 09:18:11.023 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-11-14 11:29:21.384 [info] Extension host terminating: received terminate message from renderer
+2024-11-14 11:29:21.384 [info] Lock '/home/azureuser/.vscode-server/data/User/workspaceStorage/c1742598c3d0f7b350ec804a2dd9559f-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-14 11:29:21.427 [error] Canceled: Canceled
+	at new tT (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:151066)
+	at py.U (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:155676)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:153170)
+	at Y0.g (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at mh.O [as value] (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:961845)
+	at P.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.C (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at P.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:983333)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at ci (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at _z.eb (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at _z.$ (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at _z.terminate (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at xC.terminate (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at mh.value (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:174:13224)
+	at P.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at Fm.A (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:12573)
+	at mh.value (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:11974)
+	at P.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at j5.acceptChunk (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7940)
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7226
+	at Socket.t (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:15451)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-11-14 11:29:21.427 [error] Canceled: Canceled
+	at new tT (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:151066)
+	at py.U (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:155676)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:153170)
+	at Y0.g (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at mh.O [as value] (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:961845)
+	at P.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.C (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at P.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:983333)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at ci (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at _z.eb (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at _z.$ (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at _z.terminate (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at xC.terminate (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at mh.value (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:174:13224)
+	at P.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at Fm.A (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:12573)
+	at mh.value (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:11974)
+	at P.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at j5.acceptChunk (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7940)
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7226
+	at Socket.t (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:15451)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-11-14 11:29:21.429 [error] Canceled: Canceled
+	at new tT (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:151066)
+	at py.U (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:155676)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:153170)
+	at Y0.g (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:32313)
+	at Y0.executeCommand (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at r.registerCommand.description (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31147)
+	at Y0.h (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:32833)
+	at Y0.g (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31910)
+	at Y0.executeCommand (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:114:31817)
+	at Object.executeCommand (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:156:37246)
+	at set hasGitHubRepositories [as hasGitHubRepositories] (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/github/dist/extension.js:2:328633)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/github/dist/extension.js:2:329592
+	at mh.value (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:1073936)
+	at P.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.C (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at P.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Object.p [as dispose] (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:983333)
+	at /home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:989455
+	at Array.forEach (<anonymous>)
+	at b.dispose (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:989441)
+	at V1.<anonymous> (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:108:19994)
+	at V1.dispose (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at V1.<anonymous> (/home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/extensions/git/dist/main.js:2:964255)
+	at V1.dispose (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:108:20090)
+	at ci (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:24:699)
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:14992
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:24:1009
+	at Object.dispose (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:7:2146)
+	at _z.eb (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:11919)
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at _z.$ (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at _z.terminate (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at xC.terminate (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at mh.value (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:174:13224)
+	at P.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at Fm.A (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:12573)
+	at mh.value (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:11974)
+	at P.B (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at P.fire (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at j5.acceptChunk (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7940)
+	at file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:7226
+	at Socket.t (file:///home/azureuser/.vscode-server/cli/servers/Stable-e8653663e8840adaf45af01eab5c627a5af81807/server/out/vs/workbench/api/node/extensionHostProcess.js:31:15451)
+	at Socket.emit (node:events:519:28)
+	at addChunk (node:internal/streams/readable:559:12)
+	at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+	at Readable.push (node:internal/streams/readable:390:5)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) setContext undefined
+2024-11-14 11:29:21.438 [info] Extension host with pid 5740 exiting with code 0
