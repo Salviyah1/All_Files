@@ -1,0 +1,13 @@
+.azure/
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.cache/
+.config/
+.dotnet/
+.gitconfig
+.lesshst
+.ssh/
+.terraform.d/
+.vscode-server/
