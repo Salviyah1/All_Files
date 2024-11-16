@@ -1,0 +1,9 @@
+[submodule "Java-Proj1"]
+	path = Java-Proj1
+	url = https://github.com/Salviyah1/All_Files.git
+[submodule "project1/workspace/gitnew"]
+	path = project1/workspace/gitnew
+	url = https://github.com/Salviyah1/All_Files.git
+[submodule "project1/workspace/java_project"]
+	path = project1/workspace/java_project
+	url = https://github.com/Salviyah1/All_Files.git
