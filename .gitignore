@@ -11,3 +11,4 @@
 .ssh/
 .terraform.d/
 .vscode-server/
+fold3/ex01/.terraform/
